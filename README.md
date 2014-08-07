@@ -6,6 +6,9 @@ CohortExplorer - Explore clinical cohorts and search for entities of interest
 
 **CohortExplorer \[OPTIONS\] COMMAND \[COMMAND-OPTIONS\]**
 
+# CohortExplorer Demonstration on YouTube 
+[CohortExplorer Demonstration](https://www.youtube.com/watch?v=Tba9An9cWDY)
+
 # DESCRIPTION
 
 CohortExplorer provides an abstracted command line search interface for querying data and meta data stored in clinical data repositories implemented using the Entity-Attribute-Value (EAV) schema also known as the generic schema. Most of the available electronic data capture and clinical data management systems such as [LabKey](https://labkey.com/), [OpenClinica](https://www.openclinica.com/), [REDCap](http://project-redcap.org/), [Onyx](http://obiba.org/node/3), [Opal](http://obiba.org/node/63) and [i2b2](https://www.i2b2.org/) use EAV schema as it allows the organisation of heterogeneous data with relatively simple schema. With CohortExplorer's abstracted framework it is possible to 'plug-n-play' with clinical data repositories using the [datasource API](https://metacpan.org/pod/CohortExplorer::Datasource). The datasources stored in Opal and REDCap can be queried using the in-built APIs (see [here](http://www.youtube.com/watch?v=Tba9An9cWDY)).
